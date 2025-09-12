@@ -1459,3 +1459,95 @@ address {
     font-size: 22px;
   }
 }
+
+/* Merch Modal Styles */
+#merch-size {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-color);
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-color);
+  font-weight: 300;
+  font-size: 18px;
+  padding: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+#merch-size:hover,
+#merch-size:focus {
+  outline: none;
+  background-color: #ebeae6;
+}
+
+#merch-size option {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 8px;
+}
+
+.modal-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  color: var(--text-color);
+}
+
+#merchSuccessMessage,
+#merchErrorMessage {
+  display: none;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid var(--text-color);
+  margin-top: 24px;
+}
+
+/* Form field styles for merch modal */
+#merch-name,
+#merch-contact,
+#merch-address,
+#merch-comments {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-color);
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-color);
+  font-weight: 300;
+  font-size: 18px;
+  padding: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+#merch-name:hover,
+#merch-name:focus,
+#merch-contact:hover,
+#merch-contact:focus,
+#merch-address:hover,
+#merch-address:focus,
+#merch-comments:hover,
+#merch-comments:focus {
+  outline: none;
+  background-color: #ebeae6;
+}
+
+#merch-address,
+#merch-comments {
+  resize: none;
+  height: 80px;
+}
+
+/* Merch product preview */
+.merch-product-preview {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+#merch-product-image {
+  border-radius: 8px;
+  object-fit: cover;
+}
