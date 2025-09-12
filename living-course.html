@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Human Engineering - Living course</title>
+    <link rel="icon" type="image/x-icon" href="./images/icons/fav.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <div class="body-wrapper">
+      <button id="scrollToTopBtn">
+        <svg class="scroll-up-icon" width="62" height="62">
+          <use href="./images/icons/icons.svg#icon-arrow"></use>
+        </svg>
+      </button>
+      <header class="header">
+        <div class="container header-container">
+          <a href="/">
+            <img
+              class="logo"
+              src="./images/logo.png"
+              alt="логотип компанії"
+              width="160"
+          /></a>
+          <nav class="nav-wrap">
+            <ul class="nav-list list">
+              <li>
+                <a class="nav-link link" href="#about">Про курс</a>
+              </li>
+              <li>
+                <a class="nav-link link" href="#testimonials">Відгуки</a>
+              </li>
+              <li>
+                <a class="nav-link link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="socials">
+            <li class="social-item">
+              <a
+                class="link social-link"
+                href="https://www.instagram.com/l_makarenko_hd?igsh=MXV4N3QwbDVreXBoYQ=="
+                target="_blank"
+                rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                aria-label="instagram"
+                >in</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                class="link social-link"
+                href="https://www.facebook.com/lesia.makarenko"
+                target="_blank"
+                rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                aria-label="facebook"
+                >fb</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                class="link social-link"
+                href="https://t.me/Lesia_Makarenko"
+                target="_blank"
+                rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                >Tg</a
+              >
+            </li>
+          </ul>
+
+          <button class="mob-menu-btn" type="button">
+            <svg class="mob-menu-icon" id="menu-icon" width="30" height="30">
+              <use
+                href="./images/icons/icons.svg#icon-menu"
+                class="burger-icon"
+                id="burger-icon"
+              ></use>
+              <use
+                href="./images/icons/icons.svg#icon-close1"
+                class="close-icon"
+                id="close-icon"
+              ></use>
+            </svg>
+          </button>
+        </div>
+        <!-- mob-menu -->
+        <div class="mob-menu" id="mob-menu">
+          <nav class="mob-menu-nav">
+            <ul class="mob-menu-nav-list list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-nav-link link" href="#about">Про курс</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-nav-link link" href="#testimonials"
+                  >Відгуки</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-nav-link link" href="#contacts">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <svg class="decor-icon" width="82" height="82">
+            <use href="./images/icons/icons.svg#icon-decor7"></use>
+          </svg>
+        </div>
+      </header>
+      <div class="horizontal-line"></div>
+
+      <main>
+        <section class="hero section">
+          <div class="container hero-container">
+            <div class="hero-text-content course-hero-text-wrap">
+              <h1 class="hero-title">«Жити свій Дизайн»</h1>
+              <p class="hero-text">
+                Курс про фундаментальні принципи і основи Human Design. Як
+                зрозуміти свої базові налаштування? Як побачити, де природне,
+                своє, унікальне, а не зручне і звичне, виховане? Ми не будемо
+                поліпшувати — ми будемо підсилювати сильне і знімати напругу з
+                того, що не наше.
+              </p>
+
+              <button
+                type="button"
+                class="button hero-btn"
+                data-source="living-design-course"
+                data-modal-open
+              >
+                хочу на курс
+              </button>
+            </div>
+            <div class="info-wrap">
+              <ul class="list course-description services-item sticky-description">
+                <li class="course-description-item">
+                  <h2 class="subtitle services-subtitle">Початок:</h2>
+                  <p class="hero-text">29 вересня 2025 р.</p>
+                </li>
+                <li class="course-description-item">
+                  <h2 class="subtitle services-subtitle">Тривалість:</h2>
+                  <p class="hero-text">6 тижнів</p>
+                </li>
+                <li class="course-description-item">
+                  <h2 class="subtitle services-subtitle">Формат:</h2>
+                  <p class="hero-text">група до 10 людей (оффлайн / онлайн)</p>
+                </li>
+
+                <li class="course-description-item">
+                  <h2 class="subtitle services-subtitle">Вартість:</h2>
+                  <p class="hero-text">300 USD / 12 500 грн</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <div class="horizontal-line"></div>
+        <div class="container">
+          <h2 class="title section-title">
+            Леся Макаренко - Сертифікований аналітик і вчитель з Human Design.
+          </h2>
+        </div>
+        <div class="horizontal-line"></div>
+        <section class="about section">
+          <div class="container courses-container">
+            <div class="courses-content">
+              <div class="img-wrap courses-img-wrap">
+                <img
+                  class="courses-img"
+                  src="./images/photo_2024-10-13_16-35-01.jpg"
+                  alt="фотографія експерта"
+                  width="320"
+                />
+              </div>
+              <div class="courses-item">
+                <p class="hero-text about-text-area">
+                  Світ несеться і змінюється, для мене Human Design — це
+                  можливість знайти точку опори всередині, прийняти себе,
+                  довіряти собі і спиратися на себе. Не на соціальні норми,
+                  правила, інструкції і авторитети. Ніхто не знає як правильно
+                  саме для вас, крім вас самих, коли ви в своїй силі та маєте
+                  внутрішню опору. Human Design пояснює механіку людини і те, як
+                  ми генетично влаштовані взаємодіяти і приймати коректні для
+                  нас рішення, спираючись на свою внутрішню правду.
+                </p>
+                <img
+                  src="./images/body.png"
+                  alt="схема бодіграфу людини"
+                  width="80"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="horizontal-line"></div>
+        <div class="container">
+          <h2 class="title section-title">Про курс «Жити свій Дизайн»</h2>
+        </div>
+        <div class="horizontal-line"></div>
+        <section id="about" class="testimonials-section section">
+          <div class="container testimonials-container">
+            <ul class="testimonials-list">
+              <li class="services-item">
+                <div class="services-item-top">
+                  <svg class="services-decorative-icon" width="60" height="60">
+                    <use href="./images/icons/icons.svg#icon-pattern4"></use>
+                  </svg>
+
+                  <h3 class="subtitle services-subtitle">Як це працює?</h3>
+                </div>
+                <ul class="for-whom-list list">
+                  <li class="course-description-item">
+                    <p class="text">
+                      На основі дати, місця та часу народження будується
+                      персональна карта (бодіграф), з якою студенти працюють на
+                      курсі. Ми розглянемо вашу карту, щоб навчитися розуміти
+                      ключові аспекти життя за Human Design:
+                    </p>
+                  </li>
+                  <li class="course-description-item">
+                    <ul class="about-hd-list">
+                      <li class="course-description-item">
+                        <p class="text">
+                          Стратегію руху по життю та прийняття рішень;
+                        </p>
+                      </li>
+                      <li class="course-description-item">
+                        <p class="text">Ваші сильні сторони й таланти;</p>
+                      </li>
+                      <li class="course-description-item">
+                        <p class="text">Де не варто витрачати енергію.</p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="course-description-item">
+                    <p class="text">
+                      Також ви навчитеся "читати" бодіграфи, що допоможе краще
+                      розуміти себе й близьких через систему Human Design.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="services-item">
+                <div class="services-item-top">
+                  <svg class="services-decorative-icon" width="60" height="60">
+                    <use href="./images/icons/icons.svg#icon-pattern6"></use>
+                  </svg>
+
+                  <h3 class="subtitle services-subtitle">Для кого курс?</h3>
+                </div>
+
+                <ul class="for-whom-list">
+                  <li class="course-description-item">
+                    <p class="text">
+                      Для новачків, які взагалі не в темі, але «випадково»
+                      почули про Дизайн Людини і відчули потяг до цих знань;
+                    </p>
+                  </li>
+                  <li class="course-description-item">
+                    <p class="text">
+                      Для тих, хто вже мав досвід та прочитання своєї карти, та
+                      хоче закріпити знання і самостійно розбиратися в
+                      особливостях своїх близьких, знайомих, партнерів;
+                    </p>
+                  </li>
+                  <li class="course-description-item">
+                    <p class="text">
+                      Для тих, хто хоче почати свій професійний шлях в Дизайні і
+                      бути провідником. Це максимально важлива та цінна перша
+                      сходинка, база, яка дає можливість заглибитися у вчення та
+                      запустити процес змін у своєму житті.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="services-item">
+                <div class="services-item-top">
+                  <svg class="services-decorative-icon" width="60" height="60">
+                    <use href="./images/icons/icons.svg#icon-pattern3"></use>
+                  </svg>
+
+                  <h3 class="subtitle services-subtitle">Розклад занять</h3>
+                </div>
+                <ul class="list course-description">
+                  <li class="course-description-item">
+                    <h2 class="course-description-subtitle">Початок курсу:</h2>
+                    <p class="text">29 вересня 2025 р.</p>
+                  </li>
+                   <li class="course-description-item">
+                    <h2 class="course-description-subtitle">Тривалість:</h2>
+                    <p class="text">6 тижнів</p>
+                  </li>
+                  <li class="course-description-item">
+                    <h2 class="course-description-subtitle">
+                      Щопонеділка, щочетверга:
+                    </h2>
+                    <p class="text">онлайн-зустріч з 19:00 до 21:00</p>
+                  </li>
+                  <li class="course-description-item">
+                    <h2 class="course-description-subtitle">Кожну другу суботу:</h2>
+                    <p class="text">
+                      офлайн-зустріч: практичне заняття (для тих, хто може бути
+                      присутнім)
+                    </p>
+                  </li>
+
+                  <li class="course-description-item">
+                    <h2 class="course-description-subtitle">Щонеділі:</h2>
+                    <p class="text">
+                      онлайн-зустріч: практичне заняття (для тих, хто не в
+                      Києві)
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="horizontal-line"></div>
+        <div class="container">
+          <h2 class="title section-title">
+            Хочете дізнатися, чи підходить вам курс і чи допоможе вирішити ваші
+            запити? Запрошую вас на безкоштовну онлайн-зустріч, яка відбудеться
+            24 вересня о 19:00.
+          </h2>
+
+          <button
+            class="button cta-services-btn meeting-button"
+            type="button"
+            data-source="living-course-meeting"
+            data-modal-open
+          >
+            хочу на зустріч
+          </button>
+        </div>
+        <div class="horizontal-line"></div>
+        <section id="testimonials" class="testimonials-section section">
+          <div class="container testimonials-container">
+            <h2 class="title testimonials-title">Відгуки про курс</h2>
+            <ul class="testimonials-list">
+              <li class="testimonials-item">
+                <svg class="decor-icon" width="62" height="62">
+                  <use href="./images/icons/icons.svg#icon-decor2"></use>
+                </svg>
+                <p class="text">
+                  "Леся - це унікальний провідник, який провокує до змін! Після
+                  цього курсу ваше життя не буде колишнім. Вживу - це унікальна
+                  можливість з головою поринути в це практичне знання! Також
+                  заздрю кожному учаснику"
+                </p>
+              </li>
+              <li class="testimonials-item">
+                <svg class="decor-icon" width="62" height="62">
+                  <use href="./images/icons/icons.svg#icon-decor15"></use>
+                </svg>
+                <p class="text">
+                  "Дякую Всім. Дякую Лесі! Пазли склалися, відповіді отримані,
+                  тепер треба перетравити. Компанія чудова склалась по
+                  потужності"
+                </p>
+              </li>
+              <li class="testimonials-item">
+                <svg class="decor-icon" width="62" height="62">
+                  <use href="./images/icons/icons.svg#icon-decor17"></use>
+                </svg>
+                <p class="text">
+                  "Дякую дуууууууже. Зайшло по поличках,як завжди з тобою, Лесь.
+                  І дуууууууже вчасно"
+                </p>
+              </li>
+              <li class="testimonials-item">
+                <svg class="decor-icon" width="62" height="62">
+                  <use href="./images/icons/icons.svg#icon-decor11"></use>
+                </svg>
+                <p class="text">
+                  "радила! раджу! буду радити! 4 роки тому допомогло зрозуміти
+                  себе краще і зараз інколи я переслуховую і завжди чую, щось
+                  нове"
+                </p>
+              </li>
+              <li class="testimonials-item">
+                <svg class="decor-icon" width="62" height="62">
+                  <use href="./images/icons/icons.svg#icon-decor16"></use>
+                </svg>
+                <p class="text">
+                  "Дякую Вам! Я вже пазлики в голові поскладала від народження
+                  до зараз і така: вау, так вот як це працює. Не дарма я так
+                  сильно хотіла потрапити до Bас"
+                </p>
+              </li>
+              <li class="testimonials-item">
+                <svg class="decor-icon" width="62" height="62">
+                  <use href="./images/icons/icons.svg#icon-decor18"></use>
+                </svg>
+                <p class="text">
+                  "@I_makarenko_hd, 9років вивчає Human Design. Для мене вона
+                  людина сканер, просто дивиться на твою карту і знає, що
+                  сказати, як допомогти, де не чіпати і як правильно реагувати і
+                  головне підтримувати."
+                </p>
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="button"
+              data-source="living-design-course"
+              data-modal-open
+            >
+              хочу на курс
+            </button>
+          </div>
+        </section>
+        <div class="horizontal-line"></div>
+      </main>
+      <section id="contacts" class="contacts section">
+        <div class="container contacts-container">
+          <h2 class="title contacts-title">Контакти</h2>
+          <address class="address">
+            <a
+              class="link"
+              href="https://maps.app.goo.gl/SqzQyX1bUjToeQf97"
+              target="_blank"
+              rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+              >м. Київ, вул. Гоголівська, 34</a
+            >
+          </address>
+          <ul class="socials">
+            <li class="social-item">
+              <a
+                class="link social-link"
+                href="https://www.instagram.com/l_makarenko_hd?igsh=MXV4N3QwbDVreXBoYQ=="
+                target="_blank"
+                rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                aria-label="instagram"
+                >in</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                class="link social-link"
+                href="https://www.facebook.com/lesia.makarenko"
+                target="_blank"
+                rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                aria-label="facebook"
+                >fb</a
+              >
+            </li>
+            <li class="social-item">
+              <a
+                class="link social-link"
+                href="https://t.me/Lesia_Makarenko"
+                target="_blank"
+                rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                >Tg</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="horizontal-line"></div>
+      <footer class="footer">
+        <div class="container footer-container">
+          <img
+            src="./images/footer-logo.png"
+            alt="logo"
+            width="180"
+            class="footer-logo"
+          />
+          <div class="footer-credits">
+            <p class="text footer-text">Всі права захищені &copy; HE, 2024</p>
+            <p class="text footer-text">
+              Developed with
+              <svg class="heart-icon" width="20" height="10">
+                <use href="./images/icons/icons.svg#icon-heart"></use>
+              </svg>
+              by
+              <a
+                class="link dari-link"
+                href="mailto:dari.shpak.codes@gmail.com"
+              >
+                Dari Shpak</a
+              >
+            </p>
+          </div>
+        </div>
+      </footer>
+      <div class="modal-backdrop is-hidden" data-modal>
+        <div class="modal-window">
+          <div class="container">
+            <div class="modal-header">
+              <a href="/">
+                <img
+                  class="logo"
+                  src="./images/logo.png"
+                  alt="логотип сайту"
+                  width="160"
+              /></a>
+              <button class="modal-close" type="button" data-modal-close>
+                <svg
+                  class="modal-close-icon"
+                  width="30"
+                  height="30"
+                  fill="var(--text-color)"
+                  stroke="var(--text-color)"
+                >
+                  <use href="./images/icons/icons.svg#icon-close2"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="modal-content section">
+              <div class="modal-content-top">
+                <h2 class="modal-title title">
+                  Подорож до пізнання себе може розпочатися для вас вже зараз
+                </h2>
+                <ul class="socials">
+                  <li class="social-item">
+                    <a
+                      class="link social-link"
+                      href="https://www.instagram.com/l_makarenko_hd?igsh=MXV4N3QwbDVreXBoYQ=="
+                      target="_blank"
+                      rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                      aria-label="instagram"
+                      >in</a
+                    >
+                  </li>
+                  <li class="social-item">
+                    <a
+                      class="link social-link"
+                      href="https://www.facebook.com/lesia.makarenko"
+                      target="_blank"
+                      rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                      aria-label="facebook"
+                      >fb</a
+                    >
+                  </li>
+                  <li class="social-item">
+                    <a
+                      class="link social-link"
+                      href="https://t.me/Lesia_Makarenko"
+                      target="_blank"
+                      rel="no-opener no-referrer no-follow noopener norefferrer nofollow"
+                      >Tg</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <form
+                class="contact-form"
+                id="my-form"
+                action="https://formspree.io/f/movajqej"
+                method="POST"
+              >
+                <input type="hidden" name="source" id="source-input" />
+                <input
+                  class="form-input"
+                  type="text"
+                  name="name"
+                  placeholder="Ваше імʼя"
+                  id="name"
+                  required
+                />
+                <input
+                  class="form-input"
+                  type="text"
+                  name="telegram"
+                  placeholder="Ваш телеграм"
+                  id="telegram"
+                />
+                <textarea
+                  class="form-input textarea"
+                  name="message"
+                  id="message"
+                  placeholder="Ваш запит"
+                  required
+                ></textarea>
+                <button type="submit" class="button form-btn">Надіслати</button>
+              </form>
+              <div id="successMessage">
+                Дякую ツ Ваш запит було надіслано, і скоро я з вами звʼяжусь.
+              </div>
+              <div id="errorMessage">Ой! Спробуйте, будь ласка, ще раз.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./js/mobile-menu.js"></script>
+    <script type="module" src="./js/modal.js"></script>
+    <script type="module" src="./js/scroll.js"></script>
+    <script type="module" src="./js/animation.js"></script>
+  </body>
+</html>
