@@ -1581,17 +1581,17 @@ address {
   .modal-backdrop {
     padding: 2vh 2vw;
   }
-  
+
   .modal-window {
     min-height: calc(100vh - 4vh);
     max-width: 96vw;
   }
-  
+
   .modal-content {
     flex-direction: column;
     gap: var(--spacing-lg);
   }
-  
+
   .modal-title {
     font-size: 24px;
     margin-bottom: 16px;
