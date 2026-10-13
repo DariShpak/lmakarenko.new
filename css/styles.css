@@ -519,6 +519,35 @@ address {
   text-align: justify;
 }
 
+/* ----------------ABOUT COURSE (two columns)--------------- */
+.about-course-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-course-item {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: var(--spacing-xl) 0;
+}
+
+.about-course-item:first-child {
+  padding-top: 0;
+}
+
+.about-course-item:last-child {
+  padding-bottom: 0;
+}
+
+.about-course-divider {
+  flex-shrink: 0;
+  margin-left: 0;
+}
+
+.about-course-divider.visible {
+  width: 100%;
+}
+
 /* ----------------PROJECTS--------------- */
 .projects-title {
   margin-bottom: 24px;
@@ -1042,6 +1071,37 @@ address {
     gap: 36px;
 
     justify-content: end;
+  }
+
+  .about-course-list {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .about-course-item {
+    padding: 0 var(--spacing-2xl);
+  }
+
+  .about-course-item:first-child {
+    padding-left: 0;
+  }
+
+  .about-course-item:last-child {
+    padding-right: 0;
+  }
+
+  .about-course-divider {
+    width: 1px;
+    height: auto;
+    align-self: stretch;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 1s ease-out;
+  }
+
+  .about-course-divider.visible {
+    width: 1px;
+    transform: scaleY(1);
   }
 
   .services-item {
