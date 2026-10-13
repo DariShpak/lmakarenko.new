@@ -1449,6 +1449,42 @@ address {
 
 /* Mobile modal improvements */
 @media screen and (max-width: 767px) {
+  /* Home hero: photo goes right after the name and subtitle */
+  .hero-container:has(> .hero-img-wrap) {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero-text-content:not(.course-hero-text-wrap) {
+    display: contents;
+  }
+
+  .hero-text-content:not(.course-hero-text-wrap) > .hero-title {
+    order: 1;
+  }
+
+  .hero-text-content:not(.course-hero-text-wrap) > .hero-subtitle {
+    order: 2;
+  }
+
+  .hero-container > .hero-img-wrap {
+    order: 3;
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .hero-text-content:not(.course-hero-text-wrap) > .hero-text {
+    order: 4;
+  }
+
+  .hero-text-content:not(.course-hero-text-wrap) > .about-hd-btn {
+    order: 5;
+  }
+
+  .hero-text-content:not(.course-hero-text-wrap) > img {
+    order: 6;
+  }
+
   .modal-backdrop {
     padding: 2vh 2vw;
   }
