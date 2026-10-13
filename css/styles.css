@@ -1448,6 +1448,13 @@ address {
 }
 
 /* Mobile modal improvements */
+@media screen and (max-width: 1023px) {
+  /* Home hero: smaller bodygraph below desktop */
+  .hero-text-content:not(.course-hero-text-wrap) > img {
+    width: 48px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   /* Home hero: photo goes right after the name and subtitle */
   .hero-container:has(> .hero-img-wrap) {
